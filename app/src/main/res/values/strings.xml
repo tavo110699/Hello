@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hola Mundo Android</string>
+    <string name="HelloWorld">Hola mundo</string>
+    <string name="info">Selecciona una opcion para solicitar sus permisos</string>
+    <string name="txtButtonCamera">solicitar permisos para camara </string>
+    <string name="txtButtonStorage">solicitar permisos para almacenamiento </string>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8AC86"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnPermisoCamara"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_x="82dp"
+        android:layout_y="360dp"
+        android:background="#571244"
+        android:text="@string/txtButtonCamera"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPermisoAlmacenamiento"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_x="82dp"
+        android:layout_y="278dp"
+        android:text="@string/txtButtonStorage"
+        android:background="#571244"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPermisoCamara" />
+
+    <TextView
+        android:id="@+id/textViewHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="89dp"
+        android:text="@string/HelloWorld"
+        android:textColor="#571244"
+        android:textSize="14pt"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="196dp"
+        android:text="@string/info"
+        android:textSize="10pt"
+        android:textColor="#571244"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+</AbsoluteLayout>

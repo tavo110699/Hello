@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hello World Android</string>
+    <string name="HelloWorld">Hello World</string>
+    <string name="info">Select a option for Storage</string>
+    <string name="txtButtonCamera">request this option for camera</string>
+    <string name="txtButtonStorage">request this option for Storage</string>
+</resources>
