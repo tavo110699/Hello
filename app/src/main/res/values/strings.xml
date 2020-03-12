@@ -4,5 +4,6 @@
     <string name="info">Selecciona una opcion para solicitar sus permisos</string>
     <string name="txtButtonCamera">solicitar permisos para camara </string>
     <string name="txtButtonStorage">solicitar permisos para almacenamiento </string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
 
 </resources>

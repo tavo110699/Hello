@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#571244"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="359dp"
+        android:text="Bienvenido..."
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16pt"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="187dp" />
+</AbsoluteLayout>
